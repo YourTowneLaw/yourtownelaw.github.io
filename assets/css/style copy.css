@@ -1,0 +1,490 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 80px;
+  color: #5a5a5a;
+}
+
+
+a {
+	color: #269F9B;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #1A6C69;
+	text-decoration: none;
+	outline: none;
+}
+
+h2 {
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	opacity: 0.93;
+}
+
+.navbar .list-inline {
+	padding-top: 30px;
+}
+
+.navbar .list-inline li {
+	padding-left: 15px;
+}
+
+
+.panel-title {
+	color: #5A5A5A;
+	font-weight: bold;
+}
+
+/* CUSTOMIZE THE HOMEPAGE
+-------------------------------------------------- */
+
+.home-banner {
+	background-image: url(../img/home-hero.png);
+	margin: 0 auto;
+	padding: 80px 0;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center;
+}
+
+.home-banner h3, .home-banner p {
+ color: #5A5A5A;
+}
+
+.navbar-nav > li > a {
+	line-height: 50px;
+}
+
+.text-muted {
+	color: #8f9194;
+}
+
+.btn-primary {
+	background-color: #269F9B;
+	border-color: #1A6C69;
+	color: #FFFFFF;
+}
+
+.btn-primary:hover {
+	background-color: #29ACA7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #29ACA7;
+  border-color: #1A6C69;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.marketing.staff {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.marketing .row.featurette {
+	padding: 100px 0;
+}
+
+button.navbar-toggle {
+	margin-top: 22px;
+}
+
+.navbar-brand {
+  height: 100%;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.mobile-wrap img {
+	width: 100%;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+	color: #563D7C;
+	font-weight: 500;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+	background-color: #e5e5e5;
+}
+
+/* Featurettes
+------------------------- */
+
+.contact-divider {
+  margin: 30px 0 50px; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: #269F9B;
+  margin-bottom: 12px;
+}
+
+
+/* Slogan CSS
+-------------------------------------------------- */
+
+.slogan {
+	min-height: 100px;
+	background: #fafafa;
+	width: 100%;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.slogan-content {
+	padding: 25px 0;
+}
+
+.slogan-title {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.btn-special {
+	border-radius: 4px;
+}
+
+.btn-special {
+	padding: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.get-started {
+	margin-top: 15px;
+}
+
+.latest-quotes {
+	background: url(../img/back2.jpg) 50% 0 no-repeat fixed;
+	padding: 50px 0;
+	background-position: center center;
+	background-size: cover;
+}
+
+.latest-quotes blockquote {
+	border-left: medium none !important;
+	/*color: #FFFFFF;*/
+	font-size: 28px;
+	line-height: 38px;
+	margin-top: 15px;
+}
+
+.latest-quotes cite {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 0 solid #FFFFFF;
+	color: #269F9B;
+	display: inline-block;
+	font-style: italic;
+	/*margin-top: 5px;*/
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.practice-areas {
+	padding-left: 0;
+	padding-right: 0;
+	background: url(../img/back2.jpg) 50% 0 no-repeat fixed;
+	margin-bottom: 0;
+	padding: 50px 0;
+	background-position: center center;
+	background-size: cover;
+}
+
+.practice-areas .fa-check-circle{
+	color: #269F9B;
+}
+
+
+header .social, footer .social {
+	margin-right: 4px;
+	line-height: 30px;
+}
+
+footer .social li:last-child,footer .social {
+	margin-right: 0 !important;
+}
+
+header .social li,footer .social li {
+	background-color: #FFF;
+	border-radius: 100% 100% 100% 100%;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6);
+	display: inline-block;
+	height: 25px;
+	margin-right: 5px;
+	width: 25px;
+	text-align: center;
+	background: #fff;
+	-webkit-transition: background .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out;
+	-o-transition: background .5s ease-in-out;
+	-ms-transition: background .5s ease-in-out;
+	transition: background .5s ease-in-out;
+	padding: 0;
+}
+
+header .social i,footer .social i {
+	color: #666;
+	-webkit-transition: color .5s ease-in-out;
+	-moz-transition: color .5s ease-in-out;
+	-o-transition: color .5s ease-in-out;
+	-ms-transition: color .5s ease-in-out;
+	transition: color .5s ease-in-out;
+}
+
+/* Footer */
+#footer {
+	margin-top: 0;
+	background: #8F9194;
+}
+
+.footer-top {
+	border-bottom: 1px solid #414f5a;
+	color: #fff;
+	padding: 50px 0;
+	background: url("../img/world-map.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+	background-size: cover;
+}
+
+.footer-top .container{
+}
+
+.footer-top .contact-us {
+	padding-left: 0;
+}
+
+.footer-bottom {
+	background: #25292C;
+	color: #888;
+	line-height: 30px;
+	padding: 15px;
+}
+
+.social-icons-footer-bottom {
+	float: right;
+	margin: 6px 0 0;
+}
+
+.social-icons-footer-bottom li {
+	display: inline;
+	float: left;
+	margin-right: 7px !important;
+	list-style: none;
+	-webkit-transition: all .2s ease-in-out 0;
+	-moz-transition: all .2s ease-in-out 0;
+	-o-transition: all .2s ease-in-out 0;
+	-ms-transition: all .2s ease-in-out 0;
+	transition: all .2s ease-in-out 0;
+}
+
+.social-icons-footer-bottom li i {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 16px;
+	padding-top: 0;
+	text-align: center;
+	text-decoration: inherit;
+	text-transform: none;
+}
+
+.contact-us {
+	margin: 0;
+}
+
+footer .contact-us a {
+	color: #fff !important;
+}
+
+.contact-us .icon-map-marker {
+	font-size: 16px;
+}
+
+.contact-us li i {
+	color: #666;
+	float: left;
+	margin: 4px 0 0;
+}
+
+.contact-us p {
+	line-height: 24px;
+	margin-left: 20px;
+	margin-top: -2px;
+}
+
+.contact-us li p strong {
+	color: #5A5A5A;
+	float: left;
+	font-weight: 600;
+	/*margin: 0 5px 5px 0;*/
+}
+
+#footer ul {
+	list-style: none;
+}
+
+.team .item .team-member-links a.facebook:hover,.member-social.dark a.facebook:hover,header .social li.facebook:hover,footer .social li.facebook:hover {
+	background: #4C66A4;
+}
+
+.team .item .team-member-links a.dribbble:hover,.member-social.dark a.dribbble:hover,header .social li.dribbble:hover,footer .social li.dribbble:hover {
+	background: #EA4C89;
+}
+
+.team .item .team-member-links a.twitter:hover,.member-social.dark a.twitter:hover,header .social li.twitter:hover,footer .social li.twitter:hover {
+	background: #2C77BA;
+}
+
+.team .item .team-member-links a.gplus:hover,.member-social.dark a.gplus:hover,header .social li.gplus:hover,footer .social li.gplus:hover {
+	background: #9e0b0f;
+}
+
+.team .item .team-member-links a.linkedin:hover,.member-social.dark a.linkedin:hover,header .social li.linkedin:hover,footer .social li.linkedin:hover {
+	background: #069;
+}
+
+.team .item .team-member-links a.pinterest:hover,.member-social.dark a.pinterest:hover,header .social li.pinterest:hover,footer .social li.pinterest:hover {
+	background: #C92228;
+}
+
+header .social li.rss:hover,footer .social li.rss:hover {
+	background: #f60;
+}
+
+footer a,.contact-box:hover,#options li a.selected,header .top-bar,header .top-bar a,header .social li:hover i,footer .social li:hover i,.content-box:hover>.content-box-icon i,div.content-box div.content-box-icon:hover,div.content-box div.content-box-icon:hover i,#footer h3,.contact-box:hover h3 {
+	color: #fff;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+	padding-right: 0;
+	padding-left: 0;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+	margin-top: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+	.home-banner {
+		padding: 15px 0;
+	}
+
+	.marketing.staff {
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+	.latest-quotes {
+		padding: 10px 0;
+	}
+
+	.practice-areas {
+		padding: 20px 0;
+	}
+
+	.footer-top {
+		padding: 20px 0;
+	}
+
+	.latest-quotes blockquote {
+		font-size: 1.3em;
+		line-height: 1.5em;
+	}
+
+	.marketing .row.featurette {
+		padding: 50px 0;
+	}
+}
+
+
+/* Slogan CSS
+-------------------------------------------------- */
+
+* Slogan Area */
+.slogan {
+	min-height: 100px;
+	background: #fafafa;
+	width: 100%;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.slogan-content {
+	padding: 25px 0;
+}
+
+.slogan-title {
+	display: inline-block;
+	margin: 10px 0;
+}
